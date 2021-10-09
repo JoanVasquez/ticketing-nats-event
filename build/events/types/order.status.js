@@ -5,6 +5,6 @@ var OrderStatus;
 (function (OrderStatus) {
     OrderStatus["Created"] = "created";
     OrderStatus["Cancelled"] = "cancelled";
-    OrderStatus["AwatingPayment"] = "awaiting:payment";
+    OrderStatus["AwaitingPayment"] = "awaiting:payment";
     OrderStatus["Complete"] = "complete";
 })(OrderStatus = exports.OrderStatus || (exports.OrderStatus = {}));
