@@ -26,7 +26,7 @@ var Listener = /** @class */ (function () {
     Listener.prototype.parseMessage = function (msg) {
         var data = msg.getData();
         return typeof data === "string"
-            ? JSON.parse(JSON.stringify(data))
+            ? JSON.parse(data)
             : JSON.parse(data.toString("utf8"));
     };
     return Listener;
