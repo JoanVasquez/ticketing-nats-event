@@ -18,4 +18,5 @@ __exportStar(require("./events/ticket.update.event"), exports);
 __exportStar(require("./events/order.created.event"), exports);
 __exportStar(require("./events/order.cancelled.event"), exports);
 __exportStar(require("./events/expiration.complete.event"), exports);
+__exportStar(require("./events/payments.created.event"), exports);
 __exportStar(require("./events/types/order.status"), exports);
